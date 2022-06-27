@@ -8,7 +8,6 @@ const addToCartButton = document.getElementsByClassName('addToCart');
 const badge = document.getElementById('Badge');
 const cartBody = document.getElementById('cart-pop').querySelector('table');
 
-
 window.addEventListener("DOMContentLoaded", (evt) => {
     //add to cart
     for (let i = 0; i < addToCartButton.length; i++) {
